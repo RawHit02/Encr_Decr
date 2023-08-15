@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Encryption & Decryption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="title">Encryption & Decryption</h1>
+      
+    </div>
+
+    <div class="box">
+        <div class="container">
+            <h2 class="titl">Enter Text </h2>
+            <textarea class="input-box" id="inputText" placeholder="Enter your text..."></textarea>
+            <h3 class="subtitle">Enter Secret Key</h3>
+            <input class="secret-key" type="password" id="secretKey" placeholder="Enter secret key...">
+            <button class="btn encrypt-btn" onclick="encrypt()">Encrypt 🔒</button>
+            <button class="btn decrypt-btn" onclick="decrypt()">Decrypt 🔐</button>
+            <button class="btn reset-btn" onclick="reset()">Reset ♻</button>
+            <div id="resultLabel" class="result-label"></div>
+            <textarea class="input-box" id="outputText" placeholder="Result..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
