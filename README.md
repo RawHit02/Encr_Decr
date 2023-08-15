@@ -1,3 +1,10 @@
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://www.w3.org/TR/html5/)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://www.ecma-international.org/ecma-262/6.0/)
+
+
 # Encryption and Decryption Web Application
 This is a simple web application that allows you to encrypt and decrypt text using a secret key. The application provides a user-friendly interface for entering text, entering a secret key, and performing encryption and decryption operations.
 
