@@ -9,15 +9,16 @@
 <body>
     <div class="heading">
         <h1 class="title">Encryption & Decryption</h1>
-      
     </div>
 
     <div class="box">
         <div class="container">
-            <h2 class="titl">Enter Text </h2>
+            <h2 class="titl">Enter Text</h2>
             <textarea class="input-box" id="inputText" placeholder="Enter your text..."></textarea>
             <h3 class="subtitle">Enter Secret Key</h3>
             <input class="secret-key" type="password" id="secretKey" placeholder="Secret key... <Use - 123456>">
+            <h3 class="subtitle">Enter Cipher Key</h3>
+            <input class="cipher-key" type="number" id="cipherKey" placeholder="Cipher key...">
             <button class="btn encrypt-btn" onclick="encrypt()">Encrypt 🔒</button>
             <button class="btn decrypt-btn" onclick="decrypt()">Decrypt 🔐</button>
             <button class="btn reset-btn" onclick="reset()">Reset ♻</button>
