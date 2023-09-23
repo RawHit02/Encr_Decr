@@ -6,7 +6,8 @@
 
 
 # Encryption and Decryption Web Application
-This is a simple web application that allows you to encrypt and decrypt text using a secret key. The application provides a user-friendly interface for entering text, entering a secret key, and performing encryption and decryption operations.
+This is a simple web application that allows you to encrypt and decrypt text using a secret key. The application provides a user-friendly interface for entering text, entering a secret key, and performing encryption and decryption operations. Similarly used in # Caesar Cipher Algorithm
+
 
 # Features
 Encrypt text using a secret key.
